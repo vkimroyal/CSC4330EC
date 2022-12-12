@@ -1,0 +1,19 @@
+init
+
+snum test1 ;
+snum test2 ;
+
+test1 = 5 ;
+test2 = 10 ;
+
+if (test1 < test2) {
+	test1 = 20 ;
+}
+ifnot {
+	test2 = 20 ;
+end
+
+test1 = test2 + 1 ;
+test2 = test1 ;
+
+term

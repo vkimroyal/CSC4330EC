@@ -1,0 +1,13 @@
+lnum testA ;
+lnum testB ;
+testA = 100 ;
+testB = 200 ;
+given (testA := testB)
+	testA = 10;
+}
+ifnot {
+	testBBBBBBB = 1 ;
+}
+
+term
+	

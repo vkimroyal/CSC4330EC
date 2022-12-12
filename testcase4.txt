@@ -1,0 +1,13 @@
+init
+
+during (testA < testB {
+	testA = testA + * 1 ;
+}
+given (testA := test2) {
+	testB = 1
+}
+ifnot {
+	testA = 1 ;
+}
+
+term

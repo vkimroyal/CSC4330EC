@@ -1,0 +1,17 @@
+init
+inum testA ;
+inum testB ;
+inum testA = 10 ;
+inum testB = 20 ;
+
+while ( testA < testB ) {
+	testA = testA - 1 ;
+}
+
+given ( testA := testB ) {
+	testA = 1 ;
+}
+ifnot {
+	testB = 1 ;
+}
+term
