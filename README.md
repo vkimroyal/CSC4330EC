@@ -1,5 +1,5 @@
 # CSC 4330: Extra Credit
-By Vincent Kim
+By Vincent Kim<br>
 CSC 4330: Programming Language Concepts
 
 ## Syntax Rules
